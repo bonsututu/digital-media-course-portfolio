@@ -32,6 +32,14 @@ body, html {
     padding-bottom: 70px;
   }
 
+.hover:hover .img-responsive {
+  opacity: 0.3;
+}
+
+.hover:hover .img {
+  opacity: 0.3;
+}
+
 
 .bg-4 {
   background: #2d2d30;
