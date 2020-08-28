@@ -41,41 +41,20 @@ body, html {
 }
 
 
-.bg-4 {
+.bg-b {
   background: #2d2d30;
   color: #bdbdbd;
 }
-.bg-4 h3 {color: #fff;}
-.bg-4 p {color: #fff;}
+.bg-w h3 {color: #fff;}
+.bg-w p {color: #fff;}
 
-.bg-5 {
-  background: #2d2d30;
-  color: #bdbdbd;
+.bg-w= {
+  background: #fff;
+  color: #2d2d30;
 }
-.bg-5 h3 {color: #fff;}
-.bg-5 p {color: #fff;}
+.bg-w h3 {color: #2d2d30;}
+.bg-w p {color: #2d2d30;}
 
-.bg-6 {
-  background: #2d2d30;
-  color: #bdbdbd;
-}
-.bg-6 h3 {color: #fff;}
-.bg-6 p {color: #fff;}
-
-.bg-10 {
-  background: #2d2d30;
-  color: #bdbdbd;
-}
-.bg-10 h3 {color: #fff;}
-.bg-10 p {color: #fff;}
-
-
-.bg-11 {
-  background: #2d2d30;
-  color: #bdbdbd;
-}
-.bg-11 h3 {color: #fff;}
-.bg-11 p {color: #fff;}
 
 
 
