@@ -4,4 +4,6 @@ Digital Media Portfolio designed for pedagological considerations, built on Boot
 
 Organizationally, this portfolio encourages students to name and describe their work to refine its presentation. Pedagologically, this portfolio requires students to argue how the work in the portfolio demonstrates their concerted effort to meet course goals. 
 
+See step-by-step PDF instructions for mac or window platforms. 
+
 Peace and love only, Stephen J. Quigley, University of Pittsburgh
