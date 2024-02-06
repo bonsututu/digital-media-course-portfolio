@@ -8,8 +8,8 @@
      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">  </script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js">  </script>
-
 </head>
+
 
 <body>
 
@@ -21,7 +21,8 @@
 </div>
 
 
-
+<!--Accessibility considerations
+Having links open in a new tab or window is usually considered inaccessible. Here are some reasons why: Links opening in a new tab can be disorienting for people with low vision or who are navigating via screen reader, especially when there is no warning. However, using iframe to package textual content also raises accessibility concerns-->
 
 <div class="container-fluid bg-w text-center">
     <h1>Design Beginnings </h1><br>
@@ -29,7 +30,9 @@
   <div class="row">
     <div class="col-sm-4">
         <h3>Design Fuego</h3>
-          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
+          <!--Target property opens link in new browser window  -->
+          <a href="" target="_blank">
+          <!-- Alternatively, you can embed an iframe in the modal window with link to website.-->
          <div class="hover">
        <img src="steve.jpeg" class="img-responsive" style="width:100%"alt="Image" >
               </div>
@@ -38,8 +41,10 @@
     </div>
        <div class="col-sm-4">
         <h3>Logo A/B/C</h3>
+          <!--These properties open anchored modal window. Find "#portfolioModal2" in modal content below, listed after </html>-->
           <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
-         <div class="hover">
+          <!-- Alternatively, you can embed an iframe in the modal window with link to web/or pdf-->
+            <div class="hover">
        <img src="steve.jpeg" class="img-responsive" style="width:100%"alt="Image" >
               </div>
      </a>
@@ -48,8 +53,8 @@
 
     <div class="col-sm-4">
         <h3>UX Testing Logo Project</h3>
-          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal3">
-         <div class="hover">
+        <a class="portfolio-link" target="_blank" href="">         
+          <div class="hover">
        <img src="steve.jpeg" class="img-responsive" style="width:100%"alt="Image" >
               </div>
      </a>
@@ -327,7 +332,7 @@ $(iframe).attr("src", $(iframe).attr("src"));
 </body>
    </html>
 
-
+<!-- Using a PDF link? Try using an iframe.-->
     <!-- Modal 1 -->
   <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-lg">
@@ -366,9 +371,8 @@ $(iframe).attr("src", $(iframe).attr("src"));
         <div class="container">
           <div class="row">
             <div class="col-lg-8 mx-auto">
-              <div class="modal-body">
+              <div class="modal-body" style>
                 <img class="img-responsive" src="steve.jpeg" style="width:100%" alt="">
-
                 <button class="btn btn-primary" data-dismiss="modal" type="button">
                   <i class="fas fa-times"></i>
                   Close Project</button>
@@ -394,7 +398,6 @@ $(iframe).attr("src", $(iframe).attr("src"));
             <div class="col-lg-8 mx-auto">
               <div class="modal-body">
                 <img class="img-responsive" src="steve.jpeg" style="width:100%" alt="">
-
                 <button class="btn btn-primary" data-dismiss="modal" type="button">
                   <i class="fas fa-times"></i>
                   Close Project</button>
@@ -406,10 +409,8 @@ $(iframe).attr("src", $(iframe).attr("src"));
     </div>
   </div>
 
-        <!-- Modal 4
-Are you pasting in a PDF link? Try using an iframe.
+        <!-- Modal 4-->
 <iframe src="" alt="" width="95%" height="600"></iframe>
-      -->
   <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-lg">
       <div class="modal-content">
